@@ -2,9 +2,13 @@ name: Checks
 
 on:
   push:
-    branches: ['v2.16.x']
+    branches:
+    - 'v2.16.x'
+    - 'master'
   pull_request:
-    branches: ['v2.16.x']
+    branches:
+    - 'v2.16.x'
+    - 'master'
 
 jobs:
   lint:
