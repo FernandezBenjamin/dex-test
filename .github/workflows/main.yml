@@ -2,9 +2,9 @@ name: Checks
 
 on:
   push:
-    tags: ['*']
+    branches: ['v2.16.x']
   pull_request:
-    tags: ['*']
+    branches: ['v2.16.x']
 
 jobs:
   lint:
