@@ -1,14 +1,6 @@
 name: Checks
 
-on:
-  push:
-    branches:
-    - 'v2.16.x'
-    - 'master'
-  pull_request:
-    branches:
-    - 'v2.16.x'
-    - 'master'
+on: workflow_dispatch
 
 jobs:
   lint:
